@@ -1,0 +1,11 @@
+a) Quines línies donen el mateix resultat als dos llocs?
+Donen el mateix resultat: 2 + 3, 'Hola' + ' món', '2' + 3, 10 / 4 i typeof 42.
+
+b) Quina línia funciona al navegador i a Node dona error? Per què creus que hi falla?
+La línia alert('Hola'). Al navegador funciona per mostrar una finestra emergent, però a Node falla perquè s'executa en terminal i no té interfície visual ni finestra.
+
+c) I quina funciona a Node i al navegador dona error?
+La línia process.version. A Node serveix per veure la versió instal·lada, però al navegador dona error de referència perquè l'objecte process no existeix en entorns web.
+
+d) Quin motor fa servir el teu navegador? I Node?
+Tots dos fan servir el motor V8 node y microsoft edge.

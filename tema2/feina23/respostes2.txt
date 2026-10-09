@@ -1,0 +1,51 @@
+PART A: PREDIU
+
+A1 traça:
+Predicció: 5 15
+Comprovació: bé
+Explicació: a comença valent 5 i b val 10 (5*2). Després a passa a ser 5 (10-5) i b passa a ser 15 (10+5).
+
+A2 text i número:
+Predicció:
+52
+7
+3
+Comprovació: bé
+Explicació: '5'+2 concatena text (52). Number('5')+2 suma números (7). '5'-2 converteix el text a número automàticament en restar (3).
+
+A3 comparar:
+Predicció:
+true
+false
+true
+Comprovació: bé
+Explicació: == compara només valor (ignora tipus), === compara valor i tipus (string vs number), i !== comprova si són estrictament diferents.
+
+A4 lògics:
+Predicció:
+true
+false
+Comprovació: bé
+Explicació: l'operador OR (||) retorna true si almenys un és cert. L'operador AND (&&) requereix que tots dos siguin certs.
+
+A5 bucle:
+Predicció: 10
+Comprovació: bé
+Explicació: El bucle itera i va sumant 1 + 2 + 3 + 4 a la variable total, que acaba valent 10.
+
+A6 break i continue:
+Predicció:
+1
+2
+4
+5
+7
+Comprovació: bé
+Explicació: continue salta els múltiples de 3 (3 i 6), i break atura el bucle quan i és major que 7 (així doncs, no s'imprimeix el 8, 9 ni 10).
+
+
+PART B: RESULTATS DE TEMPERATURA (B2)
+
+GRAUS: 5  -> Sortida: Fa fred
+GRAUS: 18 -> Sortida: S'hi està bé
+GRAUS: 30 -> Sortida: Fa calor
