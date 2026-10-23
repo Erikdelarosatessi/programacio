@@ -1,0 +1,16 @@
+Feina d'aula 2.4 — respostes
+
+PART A
+Entrada 3, 5, 0: 8
+Entrada 0: 0
+Entrada 4, -4, 7, 0: 7
+
+A2. Cal llegir abans del bucle per tenir el primer valor que permet decidir si s'entra; cal llegir també dins del bucle per obtenir el valor següent i poder acabar quan sigui 0.
+
+B2 — sortides esperades
+4.99: Insuficient
+5: Suficient
+8.5: Notable
+11: Nota no vàlida
+
+Després d'executar total.js, afegeix “bé” o “malament” al costat de cada predicció de la part A, tal com demana el PDF.
